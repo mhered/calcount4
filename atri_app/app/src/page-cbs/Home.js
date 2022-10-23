@@ -132,3 +132,15 @@ export function useFlex3Cb() {
 }), [])
 	return { onClick }
 }
+export function useDiv5Cb() {
+	const onClick = useCallback(callbackFactory("Div5", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}

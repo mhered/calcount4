@@ -46,6 +46,9 @@ const desktopModeProps = {
     "Flex1": {
       "callbacks": {}
     },
+    "Div5": {
+      "callbacks": {}
+    },
     "Flex2": {
       "callbacks": {}
     },

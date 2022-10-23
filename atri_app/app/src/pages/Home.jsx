@@ -11,7 +11,7 @@ import { DataTable } from "@atrilabs/react-component-manifests/src/manifests/Tab
 import { LineChart } from "@atrilabs/react-component-manifests/src/manifests/charts/LineChart/LineChart.tsx";
 import { Button } from "@atrilabs/react-component-manifests/src/manifests/Button/Button.tsx";
 import { Dropdown } from "@atrilabs/react-component-manifests/src/manifests/Dropdown/Dropdown.tsx";
-import { useDiv1Cb, useFlex1Cb, useFlex2Cb, useFlex3Cb, useTextBox2Cb, useTable1Cb, useLineChart1Cb, useButton1Cb, useTextBox1Cb, useDropdown1Cb } from "../page-cbs/Home";
+import { useDiv1Cb, useFlex1Cb, useDiv5Cb, useFlex2Cb, useFlex3Cb, useTextBox2Cb, useTable1Cb, useLineChart1Cb, useButton1Cb, useTextBox1Cb, useDropdown1Cb } from "../page-cbs/Home";
 import "../page-css/Home.css"
 
 export default function Home() {
@@ -36,6 +36,9 @@ const Div1Cb = useDiv1Cb()
 const Flex1Props = useStore((state)=>state["Home"]["Flex1"]);
 const Flex1IoProps = useIoStore((state)=>state["Home"]["Flex1"]);
 const Flex1Cb = useFlex1Cb()
+const Div5Props = useStore((state)=>state["Home"]["Div5"]);
+const Div5IoProps = useIoStore((state)=>state["Home"]["Div5"]);
+const Div5Cb = useDiv5Cb()
 const Flex2Props = useStore((state)=>state["Home"]["Flex2"]);
 const Flex2IoProps = useIoStore((state)=>state["Home"]["Flex2"]);
 const Flex2Cb = useFlex2Cb()
@@ -66,7 +69,9 @@ const Dropdown1Cb = useDropdown1Cb()
 <TextBox className="p-Home TextBox2" {...TextBox2Props} {...TextBox2Cb} {...TextBox2IoProps}/>
 <Flex className="p-Home Flex1" {...Flex1Props} {...Flex1Cb} {...Flex1IoProps}>
 <DataTable className="p-Home Table1" {...Table1Props} {...Table1Cb} {...Table1IoProps}/>
+<Div className="p-Home Div5" {...Div5Props} {...Div5Cb} {...Div5IoProps}>
 <LineChart className="p-Home LineChart1" {...LineChart1Props} {...LineChart1Cb} {...LineChart1IoProps}/>
+</Div>
 </Flex>
 </Div>
 <Flex className="p-Home Flex2" {...Flex2Props} {...Flex2Cb} {...Flex2IoProps}>

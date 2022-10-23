@@ -5,6 +5,16 @@
 display: flex;
 justify-content: center;
 flex-grow: 0;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.p-Home.Div5 {
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 .p-Home.Flex2 {
 display: flex;
@@ -19,6 +29,7 @@ padding-right: 10px;
 padding-left: 10px;
 padding-bottom: 10px;
 text-align: center;
+margin-bottom: 10px;
 }
 .p-Home.Table1 {
 height: 400px;
@@ -50,6 +61,7 @@ margin-right: 50px;
 .p-Home.TextBox1 {
 padding-top: 10px;
 padding-bottom: 10px;
+margin-left: 20px;
 }
 .p-Home.Dropdown1 {
 ;

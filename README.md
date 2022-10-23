@@ -1,6 +1,10 @@
 # calcount4
 A simple calorie counter app made using the [Atri framework](https://github.com/Atri-Labs/atrilabs-engine) for Hacktoberfest'22
 
+Select food items from the Dropdown menu and click the Add button to add them to the table. The app updates the table with the content of calories and nutrients of the foods consumed during the day and also updates the graph with the total intake of nutrients and calories during the last 7 days. 
+
+![calories](assets/images/calories.gif)
+
 See the [Demo in github pages](https://mhered.github.io/calcount4/)
 
 Sources: 
@@ -26,7 +30,7 @@ Update the [demo app](https://mhered.github.io/calcount4/) after `git commit` an
 
 Note: atri commands must run from source directory and inside the pipenv environment, so if neeced do:
 ```bash
-$ cd calcount3
+$ cd calcount4
 $ pipenv shell
 (calcount4)(base)$ conda deactivate
 (calcount4)calcount4$
