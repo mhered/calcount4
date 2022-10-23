@@ -28,10 +28,13 @@ Note: atri commands must run from source directory and inside the pipenv environ
 ```bash
 $ cd calcount3
 $ pipenv shell
-(calcount3)(base)$ conda deactivate
-(calcount3)calcount3$
+(calcount4)(base)$ conda deactivate
+(calcount4)calcount4$
 ```
-Then build and deploy with:
+The first time, add `organizationName` and `projectName`  [./atri_app/atri-server-info.json](./atri_app/atri-server-info.json)
+
+Following times just build and deploy with:
+
 ```bash
 $ atri build ssg
 $ GIT_USER=<username> atri deploy ssg --gh-pages
