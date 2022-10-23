@@ -1,0 +1,9 @@
+{
+  "Div": 4,
+  "Table": 1,
+  "Button": 2,
+  "Dropdown": 1,
+  "TextBox": 2,
+  "LineChart": 1,
+  "Flex": 4
+}
